@@ -104,6 +104,7 @@ Recommends:
 Suggests:
  cryptsetup-initramfs,
  dropbear-initramfs,
+ rasdaemon,
 Description: bare-metal server tools
  This task selects some useful packages for bare-metal servers.
 
