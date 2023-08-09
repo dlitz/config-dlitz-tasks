@@ -1,0 +1,94 @@
+Source: dlitz-tasks
+Section: misc
+Priority: optional
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: dlitz-tasks
+Architecture: all
+Depends:
+ tasksel,
+ ${misc:Depends},
+Description: dlitz tasksel package
+ This package contains tasksel information for the task-dlitz-* packages.
+
+Package: task-dlitz-standard
+Architecture: all
+Section: metapackages
+Recommends:
+ dlitz-tasks,
+ adduser,
+ aptitude,
+ auto-apt-proxy,
+ btrfsmaintenance,
+ eatmydata,
+ etckeeper,
+ file,
+ git,
+ hdparm,
+ jq,
+ unattended-upgrades, python3-gi,
+ vim,
+ wormhole-william | magic-wormhole,
+ zstd,
+Suggests:
+ systemd-resolved,
+Description: standard tools
+ This task selects some useful standard tools.
+
+Package: task-dlitz-network
+Architecture: all
+Section: metapackages
+Recommends:
+ dlitz-tasks,
+ arping,
+ bind9-dnsutils,
+ bridge-utils,
+ conntrack,
+ ethtool,
+ iperf3,
+ iproute2,
+ iptraf-ng,
+ ndisc6,
+ netcat-openbsd | netcat,
+ nftables,
+ sipcalc,
+ tcpdump,
+ wireguard-tools,
+ wireshark-common,
+ wormhole-william | magic-wormhole,
+Suggests:
+ termshark,
+ tshark,
+Description: network tools
+ This task selects useful networking-related packages.
+
+Package: task-dlitz-serial
+Architecture: all
+Section: metapackages
+Recommends:
+ dlitz-tasks,
+ picocom,
+ resize-tiny | xterm,
+ setserial,
+Suggests:
+ config-dlitz-serial-getty,
+ lrzsz,
+ python3-serial,
+Description: serial-port tools
+ This task selects packages useful for systems with serial ports or serial
+ consoles.
+
+Package: task-dlitz-wireless
+Architecture: all
+Section: metapackages
+Recommends:
+ dlitz-tasks,
+ iw,
+ wireless-regdb,
+Description: wireless tools
+ This task selects packages useful for systems with wireless networking
+ connectivity.

@@ -1,6 +1,8 @@
-/*.substvars
 /*.debhelper.log
+/*.substvars
 /.debhelper/
-/config-dlitz-debian-*/
 /debhelper-build-stamp
+/dlitz-tasks/
 /files
+/task-*/
+/tmp/

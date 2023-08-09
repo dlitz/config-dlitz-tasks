@@ -1,7 +1,0 @@
-Format: https://blends.debian.org/blends/1.1
-Task: Wireless tools
-Description: dlitz-tasks Wireless tools package
- This metapackage will install wireless tools packages.
-Install: true
-
-Recommends: wireless-regdb

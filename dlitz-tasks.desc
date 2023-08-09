@@ -1,0 +1,29 @@
+Task: dlitz-tasks
+Section: dlitz
+Relevance: 0
+Description: DLitz Tasks
+ .
+
+Task: dlitz-serial
+Parent: dlitz-tasks
+Section: dlitz
+Key:
+ task-dlitz-serial
+
+Task: dlitz-network
+Parent: dlitz-tasks
+Section: dlitz
+Key:
+ task-dlitz-network
+
+Task: dlitz-standard
+Parent: dlitz-tasks
+Section: dlitz
+Key:
+ task-dlitz-standard
+
+Task: wireless
+Parent: dlitz-tasks
+Section: dlitz
+Key:
+ task-dlitz-wireless
