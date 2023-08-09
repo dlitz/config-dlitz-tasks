@@ -1,5 +1,5 @@
-config-dlitz-tasks (0.0.0) UNRELEASED; urgency=medium
+config-dlitz-tasks (0.0.1) dlitz-aptly; urgency=medium
 
   * Initial release.
 
- -- Darsey Litzenberger <dlitz@dlitz.net>  Tue, 08 Aug 2023 22:55:07 -0600
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Wed, 09 Aug 2023 03:08:06 -0600
