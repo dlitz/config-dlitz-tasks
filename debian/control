@@ -15,31 +15,92 @@ Depends:
 Description: dlitz tasksel package
  This package contains tasksel information for the task-dlitz-* packages.
 
-Package: task-dlitz-standard
+Package: task-dlitz-desktop
 Architecture: all
 Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
  dlitz-tasks,
- adduser,
  aptitude,
  auto-apt-proxy,
+ binutils,
  btrfsmaintenance,
  eatmydata,
  etckeeper,
  file,
+ gdisk,
  git,
- hdparm,
+ gnupg,
  jq,
+ resize-tiny | xterm,
+ rsync,
+ vim-gtk3,
+ wormhole-william | magic-wormhole,
+ unzip,
+ zip,
+ zstd,
+Suggests:
+ config-dlitz-apt-aptly,
+ config-dlitz-apt-bookworm-backports,
+ config-dlitz-authorized-keys,
+ config-dlitz-openssh-server,
+ systemd-resolved,
+Description: standard tools for desktops
+ This task selects some useful packages for desktops.
+
+Package: task-dlitz-server
+Architecture: all
+Section: metapackages
+Depends:
+ ${misc:Depends},
+Recommends:
+ dlitz-tasks,
+ config-dlitz-acmetool,
+ config-dlitz-authorized-keys,
+ config-dlitz-openssh-server,
+ auto-apt-proxy,
+ eatmydata,
+ etckeeper,
+ git,
+ ncurses-term,
+ resize-tiny | xterm,
+ rsync,
  unattended-upgrades, python3-gi,
  vim,
  wormhole-william | magic-wormhole,
- zstd,
 Suggests:
+ config-dlitz-apt-aptly,
+ config-dlitz-apt-bookworm-backports,
+ aptitude,
+ btrfsmaintenance,
  systemd-resolved,
-Description: standard tools
- This task selects some useful standard tools.
+Description: standard tools for servers
+ This task selects some useful packages for servers.
+
+Package: task-dlitz-server-baremetal
+Architecture: all
+Section: metapackages
+Depends:
+ ${misc:Depends},
+Recommends:
+ dlitz-tasks,
+ task-dlitz-server,
+ btrfs-compsize,
+ btrfs-progs,
+ cryptsetup,
+ dmidecode,
+ efibootmgr,
+ gdisk,
+ hdparm,
+ lvm2, thin-provisioning-tools,
+ smartmontools,
+ snapper,
+Suggests:
+ cryptsetup-initramfs,
+ dropbear-initramfs,
+Description: bare-metal server tools
+ This task selects some useful packages for bare-metal servers.
 
 Package: task-dlitz-network
 Architecture: all

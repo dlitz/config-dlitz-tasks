@@ -4,11 +4,23 @@ Relevance: 0
 Description: DLitz Tasks
  .
 
-Task: dlitz-serial
+Task: dlitz-desktop
 Parent: dlitz-tasks
 Section: dlitz
 Key:
- task-dlitz-serial
+ task-dlitz-desktop
+
+Task: dlitz-server
+Parent: dlitz-tasks
+Section: dlitz
+Key:
+ task-dlitz-server
+
+Task: dlitz-server-baremetal
+Parent: dlitz-server
+Section: dlitz
+Key:
+ task-dlitz-server-baremetal
 
 Task: dlitz-network
 Parent: dlitz-tasks
@@ -16,11 +28,11 @@ Section: dlitz
 Key:
  task-dlitz-network
 
-Task: dlitz-standard
+Task: dlitz-serial
 Parent: dlitz-tasks
 Section: dlitz
 Key:
- task-dlitz-standard
+ task-dlitz-serial
 
 Task: wireless
 Parent: dlitz-tasks
