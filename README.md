@@ -1,5 +1,5 @@
-The dlitz-tasks Package
------------------------
+The config-dlitz-tasks Package
+------------------------------
 
 These contain tasksel information about packages that I like to install for
 various purposes.

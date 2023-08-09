@@ -1,4 +1,4 @@
-Source: dlitz-tasks
+Source: config-dlitz-tasks
 Section: misc
 Priority: optional
 Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
@@ -7,7 +7,7 @@ Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
 
-Package: dlitz-tasks
+Package: config-dlitz-tasks
 Architecture: all
 Depends:
  tasksel,
@@ -23,7 +23,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  aptitude,
  auto-apt-proxy,
  binutils,
@@ -57,7 +57,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  config-dlitz-acmetool,
  config-dlitz-authorized-keys,
  config-dlitz-openssh-server,
@@ -86,7 +86,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  task-dlitz-server,
  btrfs-compsize,
  btrfs-progs,
@@ -110,7 +110,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  arping,
  bind9-dnsutils,
  bridge-utils,
@@ -139,7 +139,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  picocom,
  resize-tiny | xterm,
  setserial,
@@ -157,7 +157,7 @@ Section: metapackages
 Depends:
  ${misc:Depends},
 Recommends:
- dlitz-tasks,
+ config-dlitz-tasks,
  iw,
  wireless-regdb,
 Description: wireless tools
