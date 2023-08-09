@@ -1,4 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: <https://github.com/dlitz/config-dlitz-tasks>
 
 Files: *
 Copyright: 2023 Darsey Litzenberger <dlitz@dlitz.net> and contributors

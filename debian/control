@@ -6,6 +6,9 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
+Homepage: https://github.com/dlitz/config-dlitz-tasks
+Vcs-Browser: https://github.com/dlitz/config-dlitz-tasks
+Vcs-Git: https://github.com/dlitz/config-dlitz-tasks.git
 
 Package: config-dlitz-tasks
 Architecture: all
