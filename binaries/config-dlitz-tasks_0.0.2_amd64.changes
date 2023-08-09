@@ -1,0 +1,66 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 09 Aug 2023 03:33:56 -0600
+Source: config-dlitz-tasks
+Binary: config-dlitz-tasks task-dlitz-desktop task-dlitz-network task-dlitz-serial task-dlitz-server task-dlitz-server-baremetal task-dlitz-wireless
+Architecture: source all
+Version: 0.0.2
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ config-dlitz-tasks - dlitz tasksel package
+ task-dlitz-desktop - standard tools for desktops
+ task-dlitz-network - network tools
+ task-dlitz-serial - serial-port tools
+ task-dlitz-server - standard tools for servers
+ task-dlitz-server-baremetal - bare-metal server tools
+ task-dlitz-wireless - wireless tools
+Changes:
+ config-dlitz-tasks (0.0.2) dlitz-aptly; urgency=medium
+ .
+   * Fix dlitz-wireless task
+Checksums-Sha1:
+ ea208dd24f17d5f919c8f62acdd75791a1df9436 1513 config-dlitz-tasks_0.0.2.dsc
+ 786d8d2ab7f5925024161180e2d490f5dc397919 2756 config-dlitz-tasks_0.0.2.tar.xz
+ 49292bf567bde0c9135ffffa71abd0dcab5fd6a1 2356 config-dlitz-tasks_0.0.2_all.deb
+ 22d171abb48fbcf7864701261b471ef9ba396de4 6879 config-dlitz-tasks_0.0.2_amd64.buildinfo
+ 3327d9310cfc3d635f09b8059006f19c032ba3c9 2348 task-dlitz-desktop_0.0.2_all.deb
+ fd42a9db8abbb9f156be59a5c1724250903a1553 2300 task-dlitz-network_0.0.2_all.deb
+ 8a176aa62e93f68b4c89f936fc60683411c04943 2212 task-dlitz-serial_0.0.2_all.deb
+ d3cd0a5c9b1abff6fbacc933ede3e5c3bc6e9298 2284 task-dlitz-server-baremetal_0.0.2_all.deb
+ b9b2e915e4943c94dfeb7d9a26aa788b9954f08c 2340 task-dlitz-server_0.0.2_all.deb
+ 436b3f58b42425e5286a97ee627483aa380e2705 2180 task-dlitz-wireless_0.0.2_all.deb
+Checksums-Sha256:
+ af53a862785886203f788216420da4c8c03e8a10f3445c1689adff1134318e88 1513 config-dlitz-tasks_0.0.2.dsc
+ 8eb53d1adf57465fe9481897ce5edb3340144d6d7cd67c046a5afd90b5536694 2756 config-dlitz-tasks_0.0.2.tar.xz
+ 7bcf887b7ebc85a699af8125e589fa969a6a5b131cbfb8141a73133a11dc9f53 2356 config-dlitz-tasks_0.0.2_all.deb
+ 395278e9fde4674b9347eb85a44abff13b1fb60ee749d5c66f236aa6950d8508 6879 config-dlitz-tasks_0.0.2_amd64.buildinfo
+ 905ce7682a5cc34be477cc0758d89caa19a3c89cfa16e08dd4be393ba9b5147e 2348 task-dlitz-desktop_0.0.2_all.deb
+ 13c8cb5486f8d2471d5a9def4637504d910e9be5a90be86417c4c1019a8364cc 2300 task-dlitz-network_0.0.2_all.deb
+ 88381274ed4014b56cfd83be391dfca75e5e331802ce490e017a1e3310d38695 2212 task-dlitz-serial_0.0.2_all.deb
+ b87c62a89a07957ba40a8d3ae643cb596bc17b0b69bcd89b7582426400b35017 2284 task-dlitz-server-baremetal_0.0.2_all.deb
+ 69a60425c08158617d35dc2e2ee00d30e5b1e3a995a7a75be2a3647f971f415b 2340 task-dlitz-server_0.0.2_all.deb
+ 16ab5cef1aa1c57cda9e1c41c9caf5d00668f689a72a88a7ec7a6f8bb8a414f7 2180 task-dlitz-wireless_0.0.2_all.deb
+Files:
+ 017da4c3075a3b3bd99bc6b37206480e 1513 misc optional config-dlitz-tasks_0.0.2.dsc
+ 0f368afb705af5b6917660db5d93407d 2756 misc optional config-dlitz-tasks_0.0.2.tar.xz
+ f1c060ea5937ae28cebd3d67c06b0f2d 2356 misc optional config-dlitz-tasks_0.0.2_all.deb
+ 37144cf430688693917da4a3568e0a8f 6879 misc optional config-dlitz-tasks_0.0.2_amd64.buildinfo
+ 68b692a0fd68ec91ccd7dcae37256cca 2348 metapackages optional task-dlitz-desktop_0.0.2_all.deb
+ 9d3ad899a7bec12d16ca3f86bc911345 2300 metapackages optional task-dlitz-network_0.0.2_all.deb
+ 13234076ef363f5572707c72e8a622c8 2212 metapackages optional task-dlitz-serial_0.0.2_all.deb
+ 5852da3f9081f7169bb57544596d8064 2284 metapackages optional task-dlitz-server-baremetal_0.0.2_all.deb
+ 6d0a719a100ff6f6d7f5cd3a5abf5e09 2340 metapackages optional task-dlitz-server_0.0.2_all.deb
+ b38d3811272c2487188e80fbde742bcf 2180 metapackages optional task-dlitz-wireless_0.0.2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZNNeBxAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkEOIA/2Cl9IUaXISd9K4U/nv85uDwxFtzBKerK4V/
+EgHOAnQpAP0VkzbUTL6p7ZTvKso/6iPaPtCkQOAJdZ8MmVARLXTJBg==
+=sk4E
+-----END PGP SIGNATURE-----
