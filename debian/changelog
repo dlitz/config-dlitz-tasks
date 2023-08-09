@@ -1,3 +1,9 @@
+config-dlitz-tasks (0.0.2) dlitz-aptly; urgency=medium
+
+  * Fix dlitz-wireless task
+
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Wed, 09 Aug 2023 03:33:56 -0600
+
 config-dlitz-tasks (0.0.1) dlitz-aptly; urgency=medium
 
   * Initial release.
