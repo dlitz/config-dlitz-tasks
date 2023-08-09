@@ -1,0 +1,20 @@
+Source: config-dlitz-debian
+Section: misc
+Priority: optional
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Build-Depends-Indep: blends-dev
+Standards-Version: 4.6.2
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/config-dlitz-debian
+#Vcs-Git: https://salsa.debian.org/debian/config-dlitz-debian.git
+
+Package: config-dlitz-debian-tasks
+Architecture: all
+Depends:
+ tasksel,
+ ${misc:Depends},
+Description: config-dlitz tasks
+ This package contains tasksel information for the config-dlitz-* packages.
