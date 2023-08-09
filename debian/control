@@ -12,6 +12,8 @@ Architecture: all
 Depends:
  tasksel,
  ${misc:Depends},
+Suggests:
+ config-dlitz-apt-aptly,
 Description: dlitz tasksel package
  This package contains tasksel information for the task-dlitz-* packages.
 
