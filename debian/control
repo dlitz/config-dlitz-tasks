@@ -18,6 +18,8 @@ Description: dlitz tasksel package
 Package: task-dlitz-standard
 Architecture: all
 Section: metapackages
+Depends:
+ ${misc:Depends},
 Recommends:
  dlitz-tasks,
  adduser,
@@ -42,6 +44,8 @@ Description: standard tools
 Package: task-dlitz-network
 Architecture: all
 Section: metapackages
+Depends:
+ ${misc:Depends},
 Recommends:
  dlitz-tasks,
  arping,
@@ -69,6 +73,8 @@ Description: network tools
 Package: task-dlitz-serial
 Architecture: all
 Section: metapackages
+Depends:
+ ${misc:Depends},
 Recommends:
  dlitz-tasks,
  picocom,
@@ -85,6 +91,8 @@ Description: serial-port tools
 Package: task-dlitz-wireless
 Architecture: all
 Section: metapackages
+Depends:
+ ${misc:Depends},
 Recommends:
  dlitz-tasks,
  iw,
