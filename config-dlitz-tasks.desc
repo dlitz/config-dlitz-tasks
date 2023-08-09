@@ -34,7 +34,7 @@ Section: dlitz
 Key:
  task-dlitz-serial
 
-Task: wireless
+Task: dlitz-wireless
 Parent: dlitz-tasks
 Section: dlitz
 Key:
