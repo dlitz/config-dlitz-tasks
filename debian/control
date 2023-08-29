@@ -115,7 +115,7 @@ Depends:
  ${misc:Depends},
 Recommends:
  config-dlitz-tasks,
- arping,
+ arping | iputils-arping,
  bind9-dnsutils,
  bridge-utils,
  conntrack,
