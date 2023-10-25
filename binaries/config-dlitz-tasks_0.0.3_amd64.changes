@@ -1,0 +1,67 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 24 Oct 2023 21:04:57 -0700
+Source: config-dlitz-tasks
+Binary: config-dlitz-tasks task-dlitz-desktop task-dlitz-network task-dlitz-serial task-dlitz-server task-dlitz-server-baremetal task-dlitz-wireless
+Architecture: source all
+Version: 0.0.3
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ config-dlitz-tasks - dlitz tasksel package
+ task-dlitz-desktop - standard tools for desktops
+ task-dlitz-network - network tools
+ task-dlitz-serial - serial-port tools
+ task-dlitz-server - standard tools for servers
+ task-dlitz-server-baremetal - bare-metal server tools
+ task-dlitz-wireless - wireless tools
+Changes:
+ config-dlitz-tasks (0.0.3) dlitz-aptly; urgency=medium
+ .
+   * task-dlitz-network: Allow iputils-arping as an alternative to arping
+   * Update tasks: add config-dlitz-bashrc-root; move config-dlitz-apt-aptly from Suggests to Recommends
+Checksums-Sha1:
+ 5a66922e2b8162f8c166ce44a3d9e5d14836b560 1513 config-dlitz-tasks_0.0.3.dsc
+ a36170ed5f6792c58ed528f3461925b6db8ef793 2876 config-dlitz-tasks_0.0.3.tar.xz
+ 1f6aeaf3675c7b103ae5a091cf5de5c0bb2140a9 2484 config-dlitz-tasks_0.0.3_all.deb
+ 5469f229f1c5e1b498eb192f71740c10a6b0f007 6960 config-dlitz-tasks_0.0.3_amd64.buildinfo
+ ebb28b5550829cff13ae54cf37e8bf91ddd233d2 2484 task-dlitz-desktop_0.0.3_all.deb
+ ef5aeb8679a1dc5c1d93c6c38b32f63396be53c7 2436 task-dlitz-network_0.0.3_all.deb
+ 89e9905f76270d99c50132e98150719b5521d21b 2336 task-dlitz-serial_0.0.3_all.deb
+ 04746cc3ad4b3a823e481915888f7531b3618ff8 2416 task-dlitz-server-baremetal_0.0.3_all.deb
+ cf440f33da37b7081ccb47578977d012e80bb8d3 2484 task-dlitz-server_0.0.3_all.deb
+ cfb9d3d55544d91d97ac248887a65779219e474a 2304 task-dlitz-wireless_0.0.3_all.deb
+Checksums-Sha256:
+ eaa7c8f48ddf9ee05a76ee35d4efe1cfcfdc7593d469e2983b16644645ccaf17 1513 config-dlitz-tasks_0.0.3.dsc
+ f5cf44e60647d312940b920db5d0db93c59627c5edee4da1045f886b1b21bd66 2876 config-dlitz-tasks_0.0.3.tar.xz
+ bbbe87792702faaed5cca18825fa36bca78445263a3788d6f603757e8b7864a3 2484 config-dlitz-tasks_0.0.3_all.deb
+ 82d037c0053e7cf670f9ae0c2c3ebf421d3a97b55452198b040d14d22f8586c1 6960 config-dlitz-tasks_0.0.3_amd64.buildinfo
+ 2843c6484a4daa73069818436df682d1e373f51eb34e9d0c78e6daae0b41444e 2484 task-dlitz-desktop_0.0.3_all.deb
+ 02743fe2544fc10dfdc6cd9d67f12db8942fabd52138289f704fd24bab7eeacd 2436 task-dlitz-network_0.0.3_all.deb
+ 3c6654394d1e1ad1519635ce5361dbecb59f22b65e8890d2f030b7b95c938e85 2336 task-dlitz-serial_0.0.3_all.deb
+ b32a6c1c4cba390b3fd3d6dd103355bdfe5ea5591aef4fc51376ff714ae237d0 2416 task-dlitz-server-baremetal_0.0.3_all.deb
+ 3566169e78ca9b5eaf723f5b2c8f3749037558f7df8669d502aaf3a0cd04c2bc 2484 task-dlitz-server_0.0.3_all.deb
+ c42abd469a8bea31dae40de5d7d1be210b857913ac2a7e538fedb3826dfcb509 2304 task-dlitz-wireless_0.0.3_all.deb
+Files:
+ 53c148e56d7caffdf3ba59d4f1dad717 1513 misc optional config-dlitz-tasks_0.0.3.dsc
+ 0b814ad327d52b683e66e414f45e6949 2876 misc optional config-dlitz-tasks_0.0.3.tar.xz
+ 217a1936223dde22541ac09959a90bce 2484 misc optional config-dlitz-tasks_0.0.3_all.deb
+ 48a6d03e502762455c317cca714e8742 6960 misc optional config-dlitz-tasks_0.0.3_amd64.buildinfo
+ 62a10df60b652835b1a73c4fcfb1aad3 2484 metapackages optional task-dlitz-desktop_0.0.3_all.deb
+ 79a953f2de8831ca3d4c54a2c2ff394b 2436 metapackages optional task-dlitz-network_0.0.3_all.deb
+ 7edaf144f5bbb859303b371c3b31dde6 2336 metapackages optional task-dlitz-serial_0.0.3_all.deb
+ 6e1f17b49fea0a715eaf59fb82e598cd 2416 metapackages optional task-dlitz-server-baremetal_0.0.3_all.deb
+ bcb525cae3faba8180476e9a7da00abe 2484 metapackages optional task-dlitz-server_0.0.3_all.deb
+ fa5498e0cd4a78ee1ccd77349ffe8a1f 2304 metapackages optional task-dlitz-wireless_0.0.3_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZTiVTBAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkT0QBANZBlOhUHUC3SGCH4whL+fAmfnIhRfshBy9x
+KnKeDHuDAP9a5jbkm3asI+wXVxQro1Plp5lTwlBTVzMnVFxZTHsNBg==
+=YTFe
+-----END PGP SIGNATURE-----
