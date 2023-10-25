@@ -27,6 +27,8 @@ Depends:
  ${misc:Depends},
 Recommends:
  config-dlitz-tasks,
+ config-dlitz-apt-aptly,
+ config-dlitz-bashrc-root,
  aptitude,
  auto-apt-proxy,
  binutils,
@@ -46,7 +48,6 @@ Recommends:
  zip,
  zstd,
 Suggests:
- config-dlitz-apt-aptly,
  config-dlitz-apt-bookworm-backports,
  config-dlitz-authorized-keys,
  config-dlitz-openssh-server,
@@ -63,6 +64,7 @@ Recommends:
  config-dlitz-tasks,
  config-dlitz-acmetool,
  config-dlitz-authorized-keys,
+ config-dlitz-bashrc-root,
  config-dlitz-openssh-server,
  auto-apt-proxy,
  eatmydata,
