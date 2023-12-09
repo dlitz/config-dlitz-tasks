@@ -31,6 +31,7 @@ Recommends:
  config-dlitz-bashrc-root,
  aptitude,
  auto-apt-proxy,
+ b3sum,
  binutils,
  btrfsmaintenance,
  eatmydata,
@@ -67,6 +68,7 @@ Recommends:
  config-dlitz-bashrc-root,
  config-dlitz-openssh-server,
  auto-apt-proxy,
+ b3sum,
  eatmydata,
  etckeeper,
  git,
@@ -93,6 +95,7 @@ Depends:
 Recommends:
  config-dlitz-tasks,
  task-dlitz-server,
+ b3sum,
  btrfs-compsize,
  btrfs-progs,
  cryptsetup,
