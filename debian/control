@@ -76,6 +76,7 @@ Recommends:
  etckeeper,
  git,
  git-lfs,
+ jq,
  ncurses-term,
  resize-tiny | xterm,
  rsync,
