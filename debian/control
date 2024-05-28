@@ -171,6 +171,8 @@ Recommends:
  config-dlitz-tasks,
  iw,
  wireless-regdb,
+Suggests:
+ iwd,
 Description: wireless tools
  This task selects packages useful for systems with wireless networking
  connectivity.
