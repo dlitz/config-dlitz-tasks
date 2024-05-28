@@ -1,3 +1,12 @@
+config-dlitz-tasks (0.0.4) dlitz-aptly; urgency=medium
+
+  * Add Recommends: b3sum
+  * Recommend config-dlitz-sudo-env-desktop and config-dlitz-sudo-env-terminal
+    as appropriate
+  * Make task-dlitz-wireless suggest iwd
+
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Mon, 27 May 2024 23:49:20 -0600
+
 config-dlitz-tasks (0.0.3) dlitz-aptly; urgency=medium
 
   * task-dlitz-network: Allow iputils-arping as an alternative to arping
