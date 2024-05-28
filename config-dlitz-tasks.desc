@@ -17,7 +17,7 @@ Key:
  task-dlitz-server
 
 Task: dlitz-server-baremetal
-Parent: dlitz-server
+Parent: dlitz-tasks
 Section: dlitz
 Key:
  task-dlitz-server-baremetal
