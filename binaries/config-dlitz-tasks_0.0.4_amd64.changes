@@ -1,0 +1,69 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 27 May 2024 23:49:20 -0600
+Source: config-dlitz-tasks
+Binary: config-dlitz-tasks task-dlitz-desktop task-dlitz-network task-dlitz-serial task-dlitz-server task-dlitz-server-baremetal task-dlitz-wireless
+Architecture: source all
+Version: 0.0.4
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ config-dlitz-tasks - dlitz tasksel package
+ task-dlitz-desktop - standard tools for desktops
+ task-dlitz-network - network tools
+ task-dlitz-serial - serial-port tools
+ task-dlitz-server - standard tools for servers
+ task-dlitz-server-baremetal - bare-metal server tools
+ task-dlitz-wireless - wireless tools
+Changes:
+ config-dlitz-tasks (0.0.4) dlitz-aptly; urgency=medium
+ .
+   * Add Recommends: b3sum
+   * Recommend config-dlitz-sudo-env-desktop and config-dlitz-sudo-env-terminal
+     as appropriate
+   * Make task-dlitz-wireless suggest iwd
+Checksums-Sha1:
+ 90900f409cd30327dd0a50067659a4475dcd95f0 1513 config-dlitz-tasks_0.0.4.dsc
+ 48f1bd02aeaccb768513ab276d89e5031c021df0 2976 config-dlitz-tasks_0.0.4.tar.xz
+ 42ae82a5ea5badf0b768900a3478e8777e6376f8 2572 config-dlitz-tasks_0.0.4_all.deb
+ 15f6bdb01796b66e9c3c40f4c35c14c6a3315969 8807 config-dlitz-tasks_0.0.4_amd64.buildinfo
+ 3252a58c5dcaa0dfe82aef661ea038b87ab94582 2592 task-dlitz-desktop_0.0.4_all.deb
+ a9988329c077f26169dc049732553634dde86be1 2532 task-dlitz-network_0.0.4_all.deb
+ 0cb992b0baa93f0c19e0439951d698a9c6d37fb6 2428 task-dlitz-serial_0.0.4_all.deb
+ 533afe3bb0d17baf71a361d6f4c728474f4a706a 2508 task-dlitz-server-baremetal_0.0.4_all.deb
+ b3c16d71c5146620788ee0249c2cc8b9eb3d34e4 2588 task-dlitz-server_0.0.4_all.deb
+ 5d57d343988401d8ce2461111c27f934d5a66592 2408 task-dlitz-wireless_0.0.4_all.deb
+Checksums-Sha256:
+ 5f4bbccf41de69fa162792b4d0cf2a479e7d30ba990d9e3cd85a06bfec18a7fb 1513 config-dlitz-tasks_0.0.4.dsc
+ d6727d0ace9d29ca0747de984abb0f6ac5f219c9da45161fab7a0a23f52d88c0 2976 config-dlitz-tasks_0.0.4.tar.xz
+ a9b207446d582d5de78a020c1bdcc663e071513071ad8a1ef85a08bdcf46ff2e 2572 config-dlitz-tasks_0.0.4_all.deb
+ f35073c4276087abc3975fc3dcfbf63285042c6cd2635262d47406ba136e172b 8807 config-dlitz-tasks_0.0.4_amd64.buildinfo
+ 3de7d4f94a1c8863f8d21308ae8c4984b668a5110603a13e64ebed04d388b349 2592 task-dlitz-desktop_0.0.4_all.deb
+ 1bf6f7c8e917704892ca5cb2c2cfb177e2029a3320f024eb85992b9c84c7e132 2532 task-dlitz-network_0.0.4_all.deb
+ 9fb1531751dd691bc1ba2461400fd59e17d589bb393893759ba91346b94abe56 2428 task-dlitz-serial_0.0.4_all.deb
+ 3c0aee552042fa60bce53fcd55483e99bd9aef04b6e1828445fdf68b202d839a 2508 task-dlitz-server-baremetal_0.0.4_all.deb
+ 1882e380efcb6ca8c603731b9486469afc2f953d52affa1421960b9f72a0f435 2588 task-dlitz-server_0.0.4_all.deb
+ a4bff58b8af2d19496d9b82db2a441a4ee7e00caa0eb57f6e1e8c82c8c232555 2408 task-dlitz-wireless_0.0.4_all.deb
+Files:
+ e68aaeb3dda041cbb47dca96a0712b16 1513 misc optional config-dlitz-tasks_0.0.4.dsc
+ 1c85624dba7dd7b6c2c7b6ea45047777 2976 misc optional config-dlitz-tasks_0.0.4.tar.xz
+ d582e50da0c511a1fb0ee0ef3c0bcf84 2572 misc optional config-dlitz-tasks_0.0.4_all.deb
+ 8e08e46d1eca4823e025c143484f0ef6 8807 misc optional config-dlitz-tasks_0.0.4_amd64.buildinfo
+ f6bf3bdf4c2ea7ab4f1154b4c3c91e2d 2592 metapackages optional task-dlitz-desktop_0.0.4_all.deb
+ 4d52d7529abf4508c3c44b924ae3803b 2532 metapackages optional task-dlitz-network_0.0.4_all.deb
+ 30c86e027601c664a1afe19ad00d4993 2428 metapackages optional task-dlitz-serial_0.0.4_all.deb
+ 29f1b075d3d897f90a61383fa3b1a3bd 2508 metapackages optional task-dlitz-server-baremetal_0.0.4_all.deb
+ 134ca5c04e43fa0b9016bb26df339eb6 2588 metapackages optional task-dlitz-server_0.0.4_all.deb
+ ec9020dcf0de32bf0f59265c74749cb2 2408 metapackages optional task-dlitz-wireless_0.0.4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZlVw0BAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkbC4A/1Gs47/9aR/cuFFBwRi9UKsDUjyLMH22SqRC
+YUU8qrZnAQC+LivCJ4kv8SRXPs7Oz5iGn4NNUNpVWNZzXym4bOx1Cw==
+=6ouf
+-----END PGP SIGNATURE-----
