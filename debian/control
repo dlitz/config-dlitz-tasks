@@ -112,7 +112,7 @@ Suggests:
  cryptsetup-initramfs,
  dropbear-initramfs,
  rasdaemon,
-Description: bare-metal server tools
+Description: standard tools for servers (bare-metal)
  This task selects some useful packages for bare-metal servers.
 
 Package: task-dlitz-network
