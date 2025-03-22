@@ -1,3 +1,13 @@
+config-dlitz-tasks (0.0.5) dlitz-aptly; urgency=medium
+
+  * Flatten tasksel tree to 2 levels
+  * Update task-dlitz-server-baremetal description so that it sorts better
+  * Recommend git-lfs
+  * task-dlitz-server: Add jq
+  * Add Recommends: libpam-tmpdir to task-dlitz-desktop and task-dlitz-server
+
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Fri, 21 Mar 2025 19:32:22 -0600
+
 config-dlitz-tasks (0.0.4) dlitz-aptly; urgency=medium
 
   * Add Recommends: b3sum
