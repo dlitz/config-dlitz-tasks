@@ -1,0 +1,71 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 21 Mar 2025 19:35:06 MDT
+Source: config-dlitz-tasks
+Binary: config-dlitz-tasks task-dlitz-desktop task-dlitz-network task-dlitz-serial task-dlitz-server task-dlitz-server-baremetal task-dlitz-wireless
+Architecture: source all
+Version: 0.0.5
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ config-dlitz-tasks - dlitz tasksel package
+ task-dlitz-desktop - standard tools for desktops
+ task-dlitz-network - network tools
+ task-dlitz-serial - serial-port tools
+ task-dlitz-server - standard tools for servers
+ task-dlitz-server-baremetal - standard tools for servers (bare-metal)
+ task-dlitz-wireless - wireless tools
+Checksums-Sha1:
+ c5edc63321995e3b5340e05c5c69c3ecf1ff4376 1514 config-dlitz-tasks_0.0.5.dsc
+ 2f5358fae65a04dd8de9cd98b80a5c80b8fe6204 3072 config-dlitz-tasks_0.0.5.tar.xz
+ a2c5af45ffa3128616f8de9f32893f9c08b7d250 2684 config-dlitz-tasks_0.0.5_all.deb
+ f71b1a2e9b71ebb1c2ba6af3c148c0f05943aa0b 7070 config-dlitz-tasks_0.0.5_amd64.buildinfo
+ 4fb9529fd659714e25e989b9f507733f6be78109 2728 task-dlitz-desktop_0.0.5_all.deb
+ 6acc946980149c4894bfb8bb16bfd3e222bebb94 2652 task-dlitz-network_0.0.5_all.deb
+ 97300578ac3e3fda8bac4cc64c412a0e808155d3 2552 task-dlitz-serial_0.0.5_all.deb
+ 5155fde29891b71d309412f8494d4d50b874066e 2640 task-dlitz-server-baremetal_0.0.5_all.deb
+ 59a0d625babc4b6533884e17960c7de468ce74c3 2732 task-dlitz-server_0.0.5_all.deb
+ 4dc89ddacdd726a08434df073a7a62a3b3b19922 2532 task-dlitz-wireless_0.0.5_all.deb
+Checksums-Sha256:
+ 0291976e1fb3bd9c3b962c495c4f7ddfc7baa76284eccf4104808e3c48d88eb9 1514 config-dlitz-tasks_0.0.5.dsc
+ 66b6f9c3df7625842d83f3a7de4a8b5b58f750a39c48321b4fcd6e8f664396c4 3072 config-dlitz-tasks_0.0.5.tar.xz
+ 97ba6c12b4ddb6287885146d85bac424609d6bc4b93505e3395c1f7a5ea4b606 2684 config-dlitz-tasks_0.0.5_all.deb
+ 79290fdeb67dbca0da9bf7f972586a675d036ee3d7f3186ba8d5d1c009f88b70 7070 config-dlitz-tasks_0.0.5_amd64.buildinfo
+ 50b8651e623e4740efde8d83720dde6dc057dd49ef7ba4050ba4acb992959b5f 2728 task-dlitz-desktop_0.0.5_all.deb
+ 8772f458d9312467872243fbd023bae205385aa0f7a9ace5e5a717fbef5ad552 2652 task-dlitz-network_0.0.5_all.deb
+ 084d83cd851ca038fd15de93cf2fca529ed71fe60b2733b20a4f675886bf511b 2552 task-dlitz-serial_0.0.5_all.deb
+ 5f81510a31c01f306120afe0a74d4c7d01fac0785dac410ecd9d2f7247b9664b 2640 task-dlitz-server-baremetal_0.0.5_all.deb
+ c9b1f2d2885419abe44e156068bd12396cd0193f8b1be34f377a71a99832ba3f 2732 task-dlitz-server_0.0.5_all.deb
+ fac128ad2a1249ebd5f119bee8cdd6026144ed4d28ac444c549818119a928ee5 2532 task-dlitz-wireless_0.0.5_all.deb
+Changes:
+ config-dlitz-tasks (0.0.5) dlitz-aptly; urgency=medium
+ .
+   * Flatten tasksel tree to 2 levels
+   * Update task-dlitz-server-baremetal description so that it sorts better
+   * Recommend git-lfs
+   * task-dlitz-server: Add jq
+   * Add Recommends: libpam-tmpdir to task-dlitz-desktop and task-dlitz-server
+Files:
+ bb63c65d16693f744c057eeab353bbd1 1514 misc optional config-dlitz-tasks_0.0.5.dsc
+ d6730d5ab375f6b443c023d119173de2 3072 misc optional config-dlitz-tasks_0.0.5.tar.xz
+ e8e49b512fc58fd6fdc167718042c646 2684 misc optional config-dlitz-tasks_0.0.5_all.deb
+ 67b7eb00bd53d34645a2624145d92967 7070 misc optional config-dlitz-tasks_0.0.5_amd64.buildinfo
+ 340eb4cf77fa38a6f0afdb4771118225 2728 metapackages optional task-dlitz-desktop_0.0.5_all.deb
+ cd833980c3a6dfffbef7f80aeadb81d3 2652 metapackages optional task-dlitz-network_0.0.5_all.deb
+ 27a24eefda850040127efa3cfe75c279 2552 metapackages optional task-dlitz-serial_0.0.5_all.deb
+ 4b731d4dfdc24c1a07d2f0ee97d16887 2640 metapackages optional task-dlitz-server-baremetal_0.0.5_all.deb
+ 73846ba89a87f585ffa12ea9de69c1b0 2732 metapackages optional task-dlitz-server_0.0.5_all.deb
+ 2110a9fdb9deb9e0ed215ae5407e885c 2532 metapackages optional task-dlitz-wireless_0.0.5_all.deb
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZ94T5xAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSk1hMA/1fDiWrtOBmnM+qC4zVJ4ewKzNaP7I2zcWA8
+2WqbcNrTAP4lA44z09E+Nv62iU5IxeVLdVepWQ/aK2yBRIQ+5fdrBQ==
+=g4M3
+-----END PGP SIGNATURE-----
